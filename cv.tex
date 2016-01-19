@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage{hyperref}
+\usepackage{array,longtable}
+\usepackage{helvet}
+\usepackage[bmargin=1in,tmargin=1in,lmargin=1in,rmargin=1in]{geometry}
+\usepackage{lipsum}
+\begin{document}
+\hspace{0.163\linewidth}{\bfseries\Large Calvin McCarter}
+\hfill{\url{www.cs.cmu.edu/~cmccarte}}
+
+\hrulefill
+  \begin{longtable}{@{}>{\raggedleft}p{0.17\linewidth}
+                          p{\dimexpr0.83\linewidth-2\tabcolsep-\arrayrulewidth\relax}@{}}
+ \textsc{Contact} & 8008 Gates Center, 5000 Forbes Ave. \\
+ \textsc{Information} & Pittsburgh, PA 15213 \\
+                 & \href{mailto:calvinm@cmu.edu}{calvinm@cmu.edu} \\[1.5em]
+ \textsc{Education} & \textbf{Carnegie Mellon University}, 
+                      Pittsburgh, PA \\[0.25em]
+           & \textit{Ph.D. in Machine Learning}
+             \hfill\textbf{August 2013 - Present} \\[0.25em]
+           & $\triangleright$ \ Advisor: Seyoung Kim \\[1em]
+           & \textbf{University of Michigan}, Ann Arbor, MI \\[0.25em]
+           & \textit{Bachelor of Science in Engineering}
+             \hfill\textbf{August 2009 - May 2013} \\[0.25em]
+           & $\triangleright$ \ Major: Computer Science, Minor: Mathematics \\[1.5em]
+ \textsc{Research Experience} & \textbf{Carnegie Mellon University}, Pittsburgh, PA \\[-0.75em]
+ & \textit{Machine Learning for Computational Genomics}
+                       \hfill\textbf{August 2013 - Present} \\[0.25em]
+  \end{longtable}
+\end{document}
