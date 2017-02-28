@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/calvinm
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://calvinmccarter.github.io
+  * I am calvinm (https://keybase.io/calvinm) on keybase.
+  * I have a public key ASD-RPoYtblA-GAI290ob6aspmx8D7O5Dj0jO9b1tkdmjAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120fe44fa18b5b940f86008dbdd286fa6aca66c7c0fb3b90e3d233bd6f5b647668c0a",
+            "host": "keybase.io",
+            "kid": "0120fe44fa18b5b940f86008dbdd286fa6aca66c7c0fb3b90e3d233bd6f5b647668c0a",
+            "uid": "2252051f606bc8dc2e5c6365eb687b19",
+            "username": "calvinm"
+        },
+        "service": {
+            "hostname": "calvinmccarter.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1488255715,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1488255705,
+        "hash": "b5cd50c4a08b99eee1117521cfe91465ee2b65b279559d2ea4458f5343171bdf3186129fd5aaac3a14e71724f9923ca676014446c1d2af23f9d6d76939fc551a",
+        "seqno": 929004
+    },
+    "prev": "f748ea014a6da7ece5bacf5b7af543aa0972991c1fe5df0978a982b93edab1c4",
+    "seqno": 13,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg/kT6GLW5QPhgCNvdKG+mrKZsfA+zuQ49IzvW9bZHZowKp3BheWxvYWTFAwB7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZmU0NGZhMThiNWI5NDBmODYwMDhkYmRkMjg2ZmE2YWNhNjZjN2MwZmIzYjkwZTNkMjMzYmQ2ZjViNjQ3NjY4YzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZmU0NGZhMThiNWI5NDBmODYwMDhkYmRkMjg2ZmE2YWNhNjZjN2MwZmIzYjkwZTNkMjMzYmQ2ZjViNjQ3NjY4YzBhIiwidWlkIjoiMjI1MjA1MWY2MDZiYzhkYzJlNWM2MzY1ZWI2ODdiMTkiLCJ1c2VybmFtZSI6ImNhbHZpbm0ifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImNhbHZpbm1jY2FydGVyLmdpdGh1Yi5pbyIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE4In0sImN0aW1lIjoxNDg4MjU1NzE1LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0ODgyNTU3MDUsImhhc2giOiJiNWNkNTBjNGEwOGI5OWVlZTExMTc1MjFjZmU5MTQ2NWVlMmI2NWIyNzk1NTlkMmVhNDQ1OGY1MzQzMTcxYmRmMzE4NjEyOWZkNWFhYWMzYTE0ZTcxNzI0Zjk5MjNjYTY3NjAxNDQ0NmMxZDJhZjIzZjlkNmQ3NjkzOWZjNTUxYSIsInNlcW5vIjo5MjkwMDR9LCJwcmV2IjoiZjc0OGVhMDE0YTZkYTdlY2U1YmFjZjViN2FmNTQzYWEwOTcyOTkxYzFmZTVkZjA5NzhhOTgyYjkzZWRhYjFjNCIsInNlcW5vIjoxMywidGFnIjoic2lnbmF0dXJlIn2jc2lnxEAsKQfblKqtkXNtdKSlLH/YuIXShzei0/v59ImZn0DCosJjUKiher6/R5Dv03FdcG2hD+AzCET9JCiodjJ2pJsMqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgUpjR+EhYDCH/PjsYz1aBhDfwuA77SLVBHeT9wuZiw2GjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/calvinm
+
+==================================================================
