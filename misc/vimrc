@@ -1,0 +1,44 @@
+set pastetoggle=<F2>
+"python indent off :noh temp torns off highlighting; 5>> inents 5 lines
+setlocal noautoindent
+set ruler
+set noexpandtab
+autocmd BufEnter *.py set ts=4 sw=4 expandtab softtabstop=4 backspace=indent,eol,start autoindent tw=0
+autocmd BufEnter *.pyx set ts=4 sw=4 expandtab softtabstop=4 backspace=indent,eol,start autoindent tw=0
+autocmd BufEnter *.m set ts=4 sw=4 expandtab softtabstop=4 backspace=indent,eol,start autoindent tw=0
+if has("cscope")
+    " use both cscope and ctag for 'ctrl-]', ':ta', and 'vim -t'
+    set cscopetag
+
+    " check cscope for definition of a symbol before checking ctags: set to 1
+    " if you want the reverse search order.
+    set csto=0
+
+    " add any cscope database in current directory
+    if filereadable("cscope.out")
+        cs add cscope.out
+    " else add the database pointed to by environment variable 
+    elseif $CSCOPE_DB != ""
+        cs add $CSCOPE_DB
+    endif
+
+    map <C-\> :cs find 0 <C-R>=expand("<cword>")<CR><CR>
+endif
+
+syntax on
+filetype on
+au BufNewFile,BufRead *.cu set filetype=cpp
+set mouse-=a
+set tabstop=4
+set shiftwidth=4
+set number
+map <C-down> <C-W>j
+map <C-up> <C-W>k
+map <C-left> <C-W>h
+map <C-right> <C-W>l
+
+map <Down> j
+map <Up> k
+map <S-left> :tabprev<cr>
+map <S-right> :tabnext<cr>
+
