@@ -1,0 +1,20 @@
+Host lane
+HostName lanec1.compbio.cs.cmu.edu
+User cmccarte
+ServerAliveInterval 120
+ServerAliveCountMax 60
+
+Host linux
+HostName linux.gp.cs.cmu.edu
+User cmccarte
+
+Host unix
+HostName unix.andrew.cmu.edu
+User cmccarte
+
+Host deepmaize
+HostName deepmaize.ml.cmu.edu
+User cmccarte
+
+Host *
+User cmccarte
