@@ -26,6 +26,7 @@ brew install r
 brew install igraph
 brew install graphviz
 brew install metis
+brew install graph-tool
 brew install imagemagick
 brew install cytoscape
 
@@ -41,4 +42,4 @@ brew install Caskroom/cask/google-drive
 
 pip install networkx
 pip install fastcluster
-pip install 
+pip install metis
