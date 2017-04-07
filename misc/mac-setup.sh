@@ -1,6 +1,13 @@
 defaults write ~/Library/Preferences/.GlobalPreferences CGDisableCursorLocationMagnification -bool true
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
+# To prevent slow ASL system log lookup
+sudo ln -s /bin/bash /usr/local/bin/bash
+# Then in Terminal Preferences>General, 
+#    change "Shells open with" to /usr/local/bin/bash
+# Then in Terminal Preferences>Profiles>Shell>Ask before closing,
+#    add bash and -bash.
+
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew install wget
