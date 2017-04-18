@@ -43,3 +43,4 @@ brew install Caskroom/cask/google-drive
 pip install networkx
 pip install fastcluster
 pip install metis
+pip install requests
