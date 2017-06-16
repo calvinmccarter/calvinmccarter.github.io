@@ -47,3 +47,4 @@ pip install fastcluster
 pip install PySide 
 pip install metis
 pip install requests
+pip install jupyter
