@@ -42,3 +42,5 @@ map <Up> k
 map <S-left> :tabprev<cr>
 map <S-right> :tabnext<cr>
 
+" fine grained undo
+inoremap <Space> <Space><C-g>u
