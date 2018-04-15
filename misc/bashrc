@@ -95,6 +95,11 @@ alias matlab='/Applications/MATLAB_R2014b.app/bin/matlab'
 #alias gcl='gcloud compute instances list'
 #alias gcs='gcloud compute ssh'
 
+# Usage: compresspdf ["input file"] ["output file"] [screen*|ebook|printer|prepress]
+compresspdf() {
+    gs -sDEVICE=pdfwrite -dNOPAUSE -dQUIET -dBATCH -dPDFSETTINGS=/${3:-"screen"} -dCompatibilityLevel=1.4 -sOutputFile="$2" "$1"
+}
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
