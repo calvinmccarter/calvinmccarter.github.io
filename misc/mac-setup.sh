@@ -15,6 +15,8 @@ brew install git
 brew install ack
 brew install calc
 brew install dos2unix
+brew install cmake
+brew install qt
 
 brew install python
 brew install python3
@@ -42,5 +44,7 @@ brew install Caskroom/cask/google-drive
 
 pip install networkx
 pip install fastcluster
+pip install PySide 
 pip install metis
 pip install requests
+pip install jupyter

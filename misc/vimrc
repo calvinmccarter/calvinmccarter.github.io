@@ -28,6 +28,7 @@ endif
 syntax on
 filetype on
 au BufNewFile,BufRead *.cu set filetype=cpp
+set wildignore+=*.eps,*.ps,*.bmp,*.pdf,*.aux,*.png,*.jpg,*.ppt,*.pptx
 set mouse-=a
 set tabstop=4
 set shiftwidth=4
@@ -42,3 +43,5 @@ map <Up> k
 map <S-left> :tabprev<cr>
 map <S-right> :tabnext<cr>
 
+" fine grained undo
+inoremap <Space> <Space><C-g>u
