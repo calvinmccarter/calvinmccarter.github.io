@@ -23,7 +23,8 @@ brew install python3
 brew install numpy
 brew install scipy
 brew install homebrew/science/matplotlib
-brew install r
+brew install openblas
+brew install r --with-openblas
 
 brew install igraph
 brew install graphviz
