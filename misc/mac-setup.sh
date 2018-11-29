@@ -1,5 +1,6 @@
 defaults write ~/Library/Preferences/.GlobalPreferences CGDisableCursorLocationMagnification -bool true
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+defaults write com.apple.Preview NSQuitAlwaysKeepsWindows -bool false
 
 # To prevent slow ASL system log lookup
 sudo ln -s /bin/bash /usr/local/bin/bash
