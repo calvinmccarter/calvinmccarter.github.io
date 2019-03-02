@@ -1,0 +1,9 @@
+#!/bin/bash
+
+	echo -n "qdel "
+	for (( c=$1; c<=$2; c++ ))
+	do
+		scancel $c
+		echo -n "$c "
+	done
+	echo " "

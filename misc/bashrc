@@ -92,6 +92,10 @@ alias vi='vim'
 alias rm='rm -i'
 alias py='python2.7'
 alias matlab='/Applications/MATLAB_R2014b.app/bin/matlab'
+alias sjob='scontrol show jobid -dd '
+alias sqlong='squeue -o "%.18i %.9P %.50j %.8u %.2t %.10M %.6D %R" '
+alias sqlongr='squeue -t RUNNING -o "%.18i %.9P %.50j %.8u %.2t %.10M %.6D %R" '
+
 #alias gcl='gcloud compute instances list'
 #alias gcs='gcloud compute ssh'
 
