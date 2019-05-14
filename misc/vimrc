@@ -29,6 +29,8 @@ syntax on
 filetype on
 au BufNewFile,BufRead *.cu set filetype=cpp
 set wildignore+=*.eps,*.ps,*.bmp,*.pdf,*.aux,*.png,*.jpg,*.ppt,*.pptx
+set wildignore+=*.o,*.obj
+set wildignore+=*.aux,*.blg,*.log,*.toc,*.out,*.bbl
 set mouse-=a
 set tabstop=4
 set shiftwidth=4
