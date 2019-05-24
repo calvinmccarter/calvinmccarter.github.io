@@ -2,6 +2,7 @@ defaults write ~/Library/Preferences/.GlobalPreferences CGDisableCursorLocationM
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 defaults write com.apple.Preview NSQuitAlwaysKeepsWindows -bool false
 sudo mdutil -a -i off
+defaults write com.apple.finder QLEnableXRayFolders 0
 
 # To prevent slow ASL system log lookup
 sudo ln -s /bin/bash /usr/local/bin/bash
