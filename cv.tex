@@ -3,7 +3,7 @@
 \usepackage{array,longtable}
 \usepackage{helvet}
 \usepackage[bmargin=0.85in,tmargin=0.85in,lmargin=1.0in,rmargin=1.0in]{geometry}
-\usepackage{lipsum}
+%\usepackage{lipsum}
 \pagestyle{empty}
 \begin{document}
 \hspace{0.163\linewidth}{\bfseries\Large Calvin McCarter}
@@ -14,10 +14,10 @@
   \begin{longtable}{@{}>{\raggedleft}p{0.17\linewidth}
      p{\dimexpr0.83\linewidth-2\tabcolsep-\arrayrulewidth\relax}@{}}
  \textsc{Contact} 
-     & 1917 N Leavitt St., Flr 1
+     & 59 Las Casas St.
        \hfill \href{mailto:mccarter.calvin@gmail.com}{mccarter.calvin@gmail.com} \\
  \textsc{Information} 
-     & Chicago, IL 60647
+     & Malden, MA 02148
        \hfill (616) 272-0909 \\[1.5em]
  \textsc{Education} 
      & \textbf{Carnegie Mellon University}, 
@@ -38,48 +38,57 @@
        \hfill GPA: 3.98\\[0.25em]
      & $\triangleright$ \ Selected Courses: 
        Operating Systems, Computer Architecture, Database Systems, 
-       Numerical Methods, Linear Algebra, Theoretical Statistics\\[1.5em]
+       Numerical Methods, Linear Algebra, Theoretical Statistics\\[2.5em]
  \textsc{Experience} 
+     & \textbf{Lightmatter}, Boston, MA
+       \hfill\textbf{January 2021 - Present}\\[0.25em]
+     & Researching ways to accelerate deep learning inference on custom
+       photonic hardware, and to make model accuracy robust to noise.
+       Helping guide development of next generation of hardware based
+       on current results.\\[3em]
+     &\\[-0.5em]
      & \textbf{Tempus Labs}, Chicago, IL
-       \hfill\textbf{June 2019 - Present}\\[0.25em]
-     & Designing machine learning methods for precision medicine
-       in cancer. I developed and deployed a new topic model
-       for gene expression deconvolution in metastatic cancers. I created
-       a new domain adaptation method that accounts for label shift,
-       and deployed it on the Tempus RNA-seq pipeline to account for protocol
-       batch effects. I also developed a new automatic nonparametric 
-       discretization method with applications in survival analysis. 
-       Finally, I am applying network learning 
-       and deep learning on graphs to gene regulatory and signaling networks.\\[1.5em]
+       \hfill\textbf{June 2019 - January 2021}\\[0.25em]
+     & Created a new domain adaptation method that accounts for label shift,
+       which was deployed on the Tempus RNA-seq pipeline
+       to account for protocol batch effects.
+       Developed a new automatic discretization method 
+       with applications in survival analysis. 
+       Developed a new topic model for gene expression deconvolution
+       in metastatic cancers.
+       Applied network learning and deep learning on graphs to
+       gene regulatory and signaling networks.\\[6em]
+     &\\[-0.5em]
      & \textbf{Carnegie Mellon University}, Pittsburgh, PA 
-       \hfill\textbf{August 2013 - May 2013} \\[0.25em]
+       \hfill\textbf{August 2013 - May 2019} \\[0.25em]
      & Worked on sparse graphical model learning problems 
        and scalable optimization algorithms for tasks in systems biology. My focus
        was on using statistical machine learning to discover the gene regulatory networks 
-       which explain the effect of genetic variation on clinical traits.\\[1.5em]
+       which explain the effect of genetic variation on clinical traits.\\[5em]
      & \textbf{Van Andel Research Institute}, Grand Rapids, MI
        \hfill\textbf{Summer 2013} \\[0.25em]
      & Worked under the supervision of Brian Haab to apply
        feature selection method to pancreatic cancer biomarker discovery
-       and to validate method on proteomics database.\\[1.5em]
+       and to validate method on proteomics database.\\[2em]
      & \textbf{Google}, Mountain View, CA
        \hfill\textbf{Summer 2012}\\[0.25em]
      & Worked on server backend for Google Flight Search, developing functionality 
-       to improve quality of results for live Flight Search queries.\\[1em]
+       to improve quality of results for live Flight Search queries.\\[2em]
      & \textbf{University of Michigan}, Ann Arbor, MI
        \hfill\textbf{Winter - Fall 2011} \\[0.25em]
      & Worked under the supervision of Valeria Bertacco 
        and Debapriya Chatterjee to develop post-silicon validation method.
-       Designed and implemented parallel algorithm in CUDA. \\[1.0em]
+       Designed and implemented parallel algorithm in CUDA. \\[2.0em]
      & \textbf{Arbor Networks}, Ann Arbor, MI
        \hfill\textbf{Summer 2011}\\[0.25em]
      & Implemented instrumentation in deep packet inspection system and
-       prepared performance analysis tools geared to IPv6 transition.\\[1.5em]
+       prepared performance analysis tools geared to IPv6 transition.\\[2em]
      & \textbf{University of Michigan REU Program}
        \hfill\textbf{Summer 2010} \\[0.25em]
      & Analyzed data from simulated advertising auctions under the 
        supervision of Michael Wellman to understand impact of bidding strategies
-       on advertiser profitability.\\[1.5em]
+       on advertiser profitability.\\[0.0em]
+\newpage
 \iffalse
  \textsc{Awards}
      & Outstanding Research Award, University of Michigan EECS Department, 2013 \\
@@ -89,44 +98,65 @@
      & National Merit Scholar, 2009 \\
      & Finalist, US National Chemistry Olympiad, 2009 \\%[1.5em]
      & National Champion, National Geographic Bee, 2002 \\[1.5em]
-\fi
  \textsc{Preprints}
-  & Fernandes, Louis E., et al., ``Real-world Evidence of Diagnostic Testing and Treatment Patterns
-    in US Breast Cancer Patients with Implications for Treatment Biomarkers from RNA-sequencing Data.''
-    \href{https://doi.org/10.1101/2020.08.07.20168401}{medRxiv}, 2020. \\[1.5em]
+\fi
 
  \textsc{Peer-Reviewed Publications}
-  & \underline{C. McCarter}, J. Howrylak, S. Kim,
+  & R Hanson, D Martin, \underline{C McCarter}, J Paulson,
+    ``If Loud Aliens Explain Human Earliness, Quiet Aliens Are Also Rare.''
+    \href{https://grabbyaliens.com/}{The Astrophysical Journal (APJ)}, To Appear. \\[1em]
+  & LE Fernandes, et al., ``Real-world Evidence of Diagnostic Testing and Treatment Patterns
+    in US Breast Cancer Patients with Implications for Treatment Biomarkers from RNA-sequencing Data.''
+    \href{https://doi.org/10.1016/j.clbc.2020.11.012}{Clinical Breast Cancer}, 2020. \\[1em]
+  & \underline{C McCarter}, J Howrylak, S Kim,
     ``Learning Gene Networks Underlying Clinical Phenotypes Using SNP Perturbations'',
     \href{https://doi.org/10.1371/journal.pcbi.1007940}{\textit{PLOS Computational Biology}}, 2020. \\[1em]
-  & \underline{C. McCarter} and S. Kim, 
+  & \underline{C McCarter} and S Kim, 
     ``Large-Scale Optimization Algorithms for Sparse Conditional Gaussian Graphical Models'',
     \href{http://proceedings.mlr.press/v51/mccarter16.html}{\textit{International Conference on Artificial Intelligence and Statistics (AISTATS)}},
     2016. \\[1em]
-  & \underline{C. McCarter} and S. Kim, 
+  & \underline{C McCarter} and S Kim, 
     ``On Sparse Gaussian Chain Graph Models'', 
     \textit{Advances in Neural Information Processing Systems (NeurIPS)}, 
     2014. \\[1em]
-  & S. Moon, \underline{C. McCarter}, YH Kuo,
+  & S. Moon, \underline{C McCarter}, YH Kuo,
     ``Active learning with partially featured data'',
     \textit{Proceedings of the 23rd International Conference on World Wide Web},
     2014. \\[1.5em]
-  & \underline{C. McCarter}, D. Kletter, H. Tang, K. Partyka, Y. Ma, S. Singh, 
-    J. Yadav, M. Bern, B. Haab,
+  & \underline{C McCarter}, D Kletter, H Tang, K Partyka, Y Ma, S Singh, 
+    J Yadav, M Bern, B Haab,
     ``Prediction of Glycan Motifs Using Quantitative Analysis of Multi-lectin Binding'',
     \textit{Proteomics Clinical Applications}, 
     vol: 7, issue: 9-10, 2013.\\[1em]
-  & D. Chatterjee, \underline{C. McCarter}, V. Bertacco, 
+  & D Chatterjee, \underline{C McCarter}, V Bertacco, 
     ``Simulation-based Signal Selection for State Restoration in Silicon Debug'',
     \textit{International Conference on Computer-Aided Design (ICCAD)}, 
     2011 \\[1.5em]
+  & \\[0em]
+ \textsc{Open-source Contributions}
+  & onnx2pytorch
+    \hfill \url{https://github.com/ToriML/onnx2pytorch}\\[-1em]
+  & Converts ONNX models to PyTorch.
+    \hfill [\href{https://github.com/ToriML/onnx2pytorch/graphs/contributors}{main contributor}]\\[0.25em]
+  & PerturbNet
+    \hfill \url{https://github.com/SeyoungKimLab/PerturbNet}\\[0em]
+  & Learns multi-omic gene regulatory networks.
+     \hfill [\href{https://github.com/SeyoungKimLab/PerturbNet/graphs/contributors}{main contributor}]\\[0.25em]
+  & MLPerf Inference Benchmark.
+    \hfill \url{https://github.com/mlcommons/inference}\\[0em]
+  & Deep learning benchmark.
+    \hfill [\href{https://github.com/mlcommons/inference/pull/1015}{memory-efficient pyramidal encoder for RNN-Transducer}]\\[0.25em]
+  & matrix-completion.
+    \hfill \url{https://github.com/tonyduan/matrix-completion}\\[0em]
+  & Classical matrix completion.
+    \hfill [\href{https://github.com/tonyduan/matrix-completion/pull/3}{incremental singular-vector thresholding}]\\[1.0em]
  \textsc{Presentations}
   & \textit{Transcriptome background tissue correction in metastatic cancers using a correlated composition admixture model.}\\
   & American Association for Cancer Research (AACR), Annual Meeting 2020.\\
   & \textit{An efficient algorithm for learning a gene network underlying clinical phenotypes under SNP perturbations.}\\
-  & Genome Informatics meeting at Cold Spring Harbor Labs, November 2017.\\
-  & \textit{Multi-modal structure learning in high dimensions for integrative genomics.}\\
-  & Machine Learning Lunch Seminar. Carnegie Mellon University, October 2015.\\[1.5em]
+  & Genome Informatics meeting at Cold Spring Harbor Labs, November 2017.\\[1em]
+  %& \textit{Multi-modal structure learning in high dimensions for integrative genomics.}\\
+  %& Machine Learning Lunch Seminar. Carnegie Mellon University, October 2015.\\[1.5em]
  \textsc{Teaching}
   & \textit{Probabilistic Graphical Models} (Teaching Assistant)
     \hfill Spring 2016\\
@@ -135,10 +165,10 @@
  \textsc{Activities and Professional Service}
   & \textit{Paper reviewing}
   \hfill\textbf{June 2016 - Present}\\[-2.5em]
-  & Reviewer for \textit{NeurIPS}, \textit{Statistics and Computing}, and \textit{SciPy}.\\[0.5em]
-  & \textit{University of Pittsburgh Biomedical Informatics Training Program}
-    \hfill\textbf{2017}\\
-  & Mentor to undergraduate research intern through iBRIC program.\\[0.5em]
+  & Reviewer for \textit{NeurIPS}, \textit{IEEE Internet of Things}, \textit{Statistics and Computing}, and \textit{SciPy}.\\[0.5em]
+  %& \textit{University of Pittsburgh Biomedical Informatics Training Program}
+  %  \hfill\textbf{2017}\\
+  %& Mentor to undergraduate research intern through iBRIC program.\\[0.5em]
   %& \textit{Middle school science fair judging}
   %  \hfill\textbf{2015-2020}\\
   %& Science fair judge for Pennsylvania Junior Academy of Science and Chicago Public Schools.\\[0.5em]
@@ -157,14 +187,8 @@
   & \textit{University of Michigan Robocup (Robot Soccer) Team}
     \hfill\textbf{2009 - 2012}\\
   & Member and team leader (2010-2011). Developed computer vision subsystem.\\[1.5em]
- \textsc{Programming}
+ \textsc{Languages}
   & Python (pandas, numpy, numba, PyTorch), Matlab, C++, C, CUDA, R, Shell, \LaTeX\\[1.5em]
-\iffalse
- \textsc{Open-Source Software}
-  & MegaCGGM\\[-1.1em] 
-  & Fast and scalable methods for estimating sparse conditional Gaussian graphical models.\\
-  & \url{https://github.com/calvinmccarter/mega-cggm}
-\fi
 % add Tempus causal inference TBOE
 % add science fair judging
 % add open source contribs
