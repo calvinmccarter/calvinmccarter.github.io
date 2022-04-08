@@ -2,12 +2,13 @@
 \usepackage{hyperref}
 \usepackage{array,longtable}
 \usepackage{helvet}
+%\usepackage{xcolor}
 \usepackage[bmargin=0.85in,tmargin=0.85in,lmargin=1.0in,rmargin=1.0in]{geometry}
 \usepackage[dvipsnames]{xcolor}
 \pagestyle{empty}
-\newcommand{\rul}[1]{\textcolor{red}{\underline{\textcolor{black}{#1}}}}
-\newcommand{\gul}[1]{\textcolor{green}{\underline{\textcolor{black}{#1}}}}
-\newcommand{\bul}[1]{\textcolor{blue}{\underline{\textcolor{black}{#1}}}}
+\newcommand{\caul}[1]{\textcolor{YellowGreen}{\underline{\textcolor{black}{#1}}}}
+\newcommand{\mlul}[1]{\textcolor{RubineRed}{\underline{\textcolor{black}{#1}}}}
+\newcommand{\cbul}[1]{\textcolor{Dandelion}{\underline{\textcolor{black}{#1}}}}
 \begin{document}
 \hspace{0.163\linewidth}{\bfseries\Large Calvin McCarter}
 \hfill \url{http://calvinmccarter.com/}
@@ -16,19 +17,23 @@
 \hrulefill
   \begin{longtable}{@{}>{\raggedleft}p{0.17\linewidth}
      p{\dimexpr0.83\linewidth-2\tabcolsep-\arrayrulewidth\relax}@{}}
- \textsc{Contact} 
-     & 59 Las Casas St.
+ \textsc{About Me} 
+     & AI researcher and engineer, with
+       \hfill Boston, MA \\
+ \textsc{ } 
+     & $\triangleright$ first-author papers in NeurIPS and AISTATS,
        \hfill \href{mailto:mccarter.calvin@gmail.com}{mccarter.calvin@gmail.com} \\
- \textsc{Information} 
-     & Malden, MA 02148
-       \hfill (616) 272-0909 \\[1.5em]
+ \textsc{ } 
+     & $\triangleright$ extensive open-source software contributions, and
+       \hfill (616) 272-0909 \\
+     & $\triangleright$ experience training neural networks at fast-paced startups. \\[1.5em]
  \textsc{Education} 
      & \textbf{Carnegie Mellon University}, 
        Pittsburgh, PA \\[0.25em]
      & \textit{Ph.D. in Machine Learning}
        \hfill\textbf{August 2013 - May 2019} \\[0.25em]
      & $\triangleright$ \ Advisor: Seyoung Kim
-       \hfill \\[0.25em]
+       \hfill GPA: 3.80 \\[0.25em]
      & $\triangleright$ \ Selected Courses: 
        Probabilistic Graphical Models, Convex Optimization, 
        Statistical Machine Learning, 
@@ -38,15 +43,70 @@
      & \textit{Bachelor of Science in Engineering}
        \hfill\textbf{August 2009 - May 2013} \\[0.25em]
      & $\triangleright$ \ Major: Computer Science, Minor: Mathematics 
-       \hfill GPA: 3.98/4.00\\[0.25em]
+       \hfill GPA: 3.98 \\[0.25em]
      & $\triangleright$ \ Selected Courses: 
        Operating Systems, Computer Architecture, Database Systems, 
        Numerical Methods, Linear Algebra, Theoretical Statistics\\[2.5em]
+ \textsc{Publications}
+  & R Hanson, D Martin, \cbul{C McCarter}, J Paulson,
+    ``If Loud Aliens Explain Human Earliness, Quiet Aliens Are Also Rare.''
+    \href{https://doi.org/10.3847/1538-4357/ac2369}{\textit{The Astrophysical Journal (APJ)}}, 2021. \\[1.5em]
+ \vspace{-15pt} \\{\color{YellowGreen}{CompArch}} \\ {\color{Dandelion}{CompBio}} \\{\color{RubineRed} ML} 
+  & LE Fernandes, \dots, \cbul{C McCarter}, et al., ``Real-world Evidence of Diagnostic Testing and Treatment Patterns
+    in US Breast Cancer Patients with Implications for Treatment Biomarkers from RNA-sequencing Data.''
+    \href{https://doi.org/10.1016/j.clbc.2020.11.012}{\textit{Clinical Breast Cancer}}, 2020. \\[1.5em]
+  & \cbul{C McCarter}, J Howrylak, S Kim,
+    ``Learning Gene Networks Underlying Clinical Phenotypes Using SNP Perturbations'',
+    \href{https://doi.org/10.1371/journal.pcbi.1007940}{\textit{PLOS Computational Biology}}, 2020. \\[1.5em]
+  & \mlul{C McCarter} and S Kim, 
+    ``Large-Scale Optimization Algorithms for Sparse Conditional Gaussian Graphical Models'',
+    \href{http://proceedings.mlr.press/v51/mccarter16.html}{\textit{AISTATS}}, 2016. \\[1.5em]
+  & K Kandasamy, \mlul{C McCarter}.
+    ``Penalised Additive Least Squares Models for High Dimensional Nonparametric Regression and Function Selection'',
+    \textit{Large-Scale Kernel Learning Workshop @ ICML}, 2015. \\[1.5em]
+  & \mlul{C McCarter} and S Kim, 
+    ``On Sparse Gaussian Chain Graph Models'', 
+    \href{https://proceedings.neurips.cc/paper/2014/file/81c650caac28cdefce4de5ddc18befa0-Paper.pdf}{\textit{NeurIPS}}, 2014. \\[0.5em]
+  & S Moon, \mlul{C McCarter}, YH Kuo,
+    ``Active learning with partially featured data'',
+    \textit{Proceedings of the 23rd International Conference on World Wide Web (WWW)},
+    2014. \\[1.5em]
+  & \cbul{C McCarter}, D Kletter, H Tang, K Partyka, Y Ma, S Singh, 
+    J Yadav, M Bern, B Haab,
+    ``Prediction of Glycan Motifs Using Quantitative Analysis of Multi-lectin Binding'',
+    \textit{Proteomics Clinical Applications}, 
+    vol: 7, issue: 9-10, 2013.\\[1.5em]
+  & D Chatterjee, \caul{C McCarter}, V Bertacco, 
+    ``Simulation-based Signal Selection for State Restoration in Silicon Debug'',
+    \textit{ICCAD}, 
+    2011. \\[2.5em]
+ \textsc{Unpublished Manuscripts}
+  & \mlul{C McCarter}, ``Towards Backwards-Compatible Data with Confounded Domain Adaptation'',
+    \href{https://arxiv.org/abs/2203.12720}{arXiv preprint arXiv:2203.12720}, \textit{Under Review}, 2022. \\[1.5em]
+  & A Basumallik, D Bunandar, N Dronen, L Levkova, \mlul{C McCarter}, L Nair, D Walter, D Widemann,
+    ``Adaptive Block Floating-Point for Analog Deep Learning Hardware'',
+    \textit{In Preparation}. \\[1.5em]
+  & \\[0em]
+ \textsc{Patents}
+  & D Bunandar, \caul{C McCarter}, A Basumallik, ``Improving the accuracy of analog linear processor.''
+    US Provisional Patent 63/287,219 (2021).\\[0em] 
+  & J Michuda, \dots, \cbul{C McCarter}, et al., ``Systems and methods for multilabel cancer classification.''
+    US Patent App. 17/150,992 (2021).\\[0.0em]
+  & \\[0em]
+\newpage
  \textsc{Experience} 
+     & \textbf{Independent Research}
+       \hfill\textbf{February 2022 - Present}\\[0.25em]
+     & Invented domain adaptation method which conditions on confounders,
+       and wrote and submitted paper.
+       Combining this with methods for cross-lingual word embeddings in
+       low-resource languages, and then applying it to systems biology.
+       Explored founding a startup bringing vector-space representation learning to biology,
+       by enabling the alignment of embeddings across biological contexts.\\[3em]
+     &\\[-0.5em]
      & \textbf{Lightmatter}, ML Scientist
        \hfill\textbf{January 2021 - February 2022}\\[0.25em]
-     & Researched ways to accelerate deep learning inference on custom
-       photonic hardware.
+     & Researched ways to accelerate deep learning inference on photonic AI accelerator.
        Explored finetuning strategies to ensure model accuracy despite hardware noise 
        and quantization.
        Helped guide development of next generation of hardware to improve noise robustness.\\[3em]
@@ -64,24 +124,25 @@
      &\\[-0.5em]
      & \textbf{Carnegie Mellon University}, PhD Student
        \hfill\textbf{August 2013 - May 2019} \\[0.25em]
-     & Worked on sparse graphical model learning problems 
-       and scalable optimization algorithms for tasks in systems biology. My focus
-       was on using statistical machine learning to discover the gene regulatory networks 
-       which explain the effect of genetic variation on clinical traits.\\[5em]
+     & Developed novel sparse graphical models 
+       and scalable optimization algorithms for disease systems biology.
+       Used statistical learning to discover the gene regulatory networks 
+       which explain the effect of genetic variation on clinical traits.\\[3em]
      & \textbf{Van Andel Research Institute}, Research Intern
        \hfill\textbf{Summer 2013} \\[0.25em]
      & Worked under the supervision of Brian Haab to apply
-       feature selection method to pancreatic cancer biomarker discovery
+       feature selection method in pancreatic cancer biomarker discovery
        and to validate method on proteomics database.\\[2em]
      & \textbf{Google}, Software Engineering Intern
        \hfill\textbf{Summer 2012}\\[0.25em]
      & Worked on server backend for Google Flight Search, developing functionality 
-       to improve quality of results for live Flight Search queries.\\[2em]
+       for international results for live Flight Search queries.\\[2em]
      & \textbf{University of Michigan}, Research Assistant
-       \hfill\textbf{Winter - Fall 2011} \\[0.25em]
+       \hfill\textbf{2011} \\[0.25em]
      & Worked under the supervision of Valeria Bertacco 
        and Debapriya Chatterjee to develop post-silicon validation method.
        Designed and implemented parallel algorithm in CUDA. \\[2.0em]
+\iffalse
      & \textbf{Arbor Networks}, Summer Intern
        \hfill\textbf{Summer 2011}\\[0.25em]
      & Implemented instrumentation in deep packet inspection system and
@@ -91,7 +152,8 @@
      & Analyzed data from simulated advertising auctions under the 
        supervision of Michael Wellman to understand impact of bidding strategies
        on advertiser profitability.\\[0.0em]
-\newpage
+\fi
+%\newpage
 \iffalse
  \textsc{Awards}
      & Outstanding Research Award, University of Michigan EECS Department, 2013 \\
@@ -103,68 +165,19 @@
      & National Champion, National Geographic Bee, 2002 \\[1.5em]
 \fi
 
- \textsc{Peer Reviewed Publications}
-  & R Hanson, D Martin, \bul{C McCarter}, J Paulson,
-    ``If Loud Aliens Explain Human Earliness, Quiet Aliens Are Also Rare.''
-    \href{https://doi.org/10.3847/1538-4357/ac2369}{\textit{The Astrophysical Journal (APJ)}}, 2021. \\[1.5em]
- \vspace{-15pt} \\{\color{green} ML} \\{\color{red}{CompArch}} \\ {\color{blue}{CompBio}} 
-  & LE Fernandes, \dots, \bul{C McCarter}, et al., ``Real-world Evidence of Diagnostic Testing and Treatment Patterns
-    in US Breast Cancer Patients with Implications for Treatment Biomarkers from RNA-sequencing Data.''
-    \href{https://doi.org/10.1016/j.clbc.2020.11.012}{\textit{Clinical Breast Cancer}}, 2020. \\[1.5em]
-  & \bul{C McCarter}, J Howrylak, S Kim,
-    ``Learning Gene Networks Underlying Clinical Phenotypes Using SNP Perturbations'',
-    \href{https://doi.org/10.1371/journal.pcbi.1007940}{\textit{PLOS Computational Biology}}, 2020. \\[1.5em]
-  & \gul{C McCarter} and S Kim, 
-    ``Large-Scale Optimization Algorithms for Sparse Conditional Gaussian Graphical Models'',
-    \href{http://proceedings.mlr.press/v51/mccarter16.html}{\textit{International Conference on Artificial Intelligence and Statistics (AISTATS)}},
-    2016. \\[1.5em]
-  & \gul{C McCarter} and S Kim, 
-    ``On Sparse Gaussian Chain Graph Models'', 
-    \href{https://proceedings.neurips.cc/paper/2014/file/81c650caac28cdefce4de5ddc18befa0-Paper.pdf}{\textit{Advances in Neural Information Processing Systems (NeurIPS)}}, 
-    2014. \\[1.5em]
-  & S Moon, \gul{C McCarter}, YH Kuo,
-    ``Active learning with partially featured data'',
-    \textit{Proceedings of the 23rd International Conference on World Wide Web},
-    2014. \\[1.5em]
-  & \bul{C McCarter}, D Kletter, H Tang, K Partyka, Y Ma, S Singh, 
-    J Yadav, M Bern, B Haab,
-    ``Prediction of Glycan Motifs Using Quantitative Analysis of Multi-lectin Binding'',
-    \textit{Proteomics Clinical Applications}, 
-    vol: 7, issue: 9-10, 2013.\\[1.5em]
-  & D Chatterjee, \rul{C McCarter}, V Bertacco, 
-    ``Simulation-based Signal Selection for State Restoration in Silicon Debug'',
-    \textit{International Conference on Computer-Aided Design (ICCAD)}, 
-    2011. \\[1.5em]
-  & \\[0em]
- \textsc{Preprints}
-  & A Basumallik, D Bunandar, N Dronen, L Levkova, \gul{C McCarter}, L Nair, D Walter, D Widemann,
-    ``Adaptive Block Floating-Point for Analog Deep Learning Hardware.''
-    \textit{Under Review}, 2021. \\[1.5em]
-  & \\[0em]
- \textsc{Selected Refereed Publications}
-  & \bul{C McCarter}, B Leibowitz, J Michuda, JS Bell, C Igartua, KP White.
-    ``Transcriptome background tissue correction in metastatic cancers using a correlated composition admixture model'',
-    \textit{Cancer Res. American Association for Cancer Research},
-    vol: 80, 2020. \\[1.5em]
-  & K Kandasamy, \gul{C McCarter}.
-    ``Penalised Additive Least Squares Models for High Dimensional Nonparametric Regression and Function Selection'',
-    \textit{Large-Scale Kernel Learning Workshop @ ICML}, 2015. \\[1.5em]
-  & \\[0em]
- \textsc{Patents}
-  & D Bunandar, \rul{C McCarter}, A Basumallik, ``Improving the accuracy of analog linear processor.''
-    US Provisional Patent 63/287,219 (2021).\\[0em] 
-  & J Michuda, \dots, \bul{C McCarter}, et al., ``Systems and methods for multilabel cancer classification.''
-    US Patent App. 17/150,992 (2021).\\[0.0em]
-  & \\[0em]
  \textsc{Selected Open-Source Contributions}
+  & ConDo
+    \hfill \url{https://github.com/calvinmccarter/condo-adapter}\\[-2.5em]
+  & Toolbox for Confounded Domain Adaptation.
+    \hfill [author]\\[0.25em]
   & onnx2pytorch
-    \hfill \url{https://github.com/ToriML/onnx2pytorch}\\[-2.5em]
+    \hfill \url{https://github.com/ToriML/onnx2pytorch}\\[0em]
   & Converts ONNX models to PyTorch.
     \hfill [\href{https://github.com/ToriML/onnx2pytorch/graphs/contributors}{main contributor}]\\[0.25em]
   & PerturbNet
     \hfill \url{https://github.com/SeyoungKimLab/PerturbNet}\\[0em]
   & Learns multi-omic gene regulatory networks.
-     \hfill [\href{https://github.com/SeyoungKimLab/PerturbNet/graphs/contributors}{main contributor}]\\[0.25em]
+     \hfill [\href{https://github.com/SeyoungKimLab/PerturbNet/graphs/contributors}{author}]\\[0.25em]
   & MLPerf Inference
     \hfill \url{https://github.com/mlcommons/inference}\\[0em]
   & Deep learning benchmark.
@@ -182,31 +195,38 @@
   & Product quantization (PQ) and optimized PQ.
     \hfill [\href{https://github.com/matsui528/nanopq/graphs/contributors}{eigenvalue allocation initialization}]\\[1.0em]
  \textsc{Languages}
-  & Python (PyTorch, TensorFlow, pandas, NumPy, Numba), Matlab, C++, C, CUDA, Shell, \LaTeX\\[2.5em]
-\iffalse
+  & Python (PyTorch, TensorFlow, pandas, NumPy, Numba), Matlab, C++, C, CUDA\\[0em]%, Shell, \LaTeX\\[2.5em]
+\newpage
  \textsc{Presentations}
   & \textit{Transcriptome background tissue correction in metastatic cancers using a correlated composition admixture model.}\\
   & American Association for Cancer Research (AACR), Annual Meeting 2020.\\
   & \textit{An efficient algorithm for learning a gene network underlying clinical phenotypes under SNP perturbations.}\\
   & Genome Informatics meeting at Cold Spring Harbor Labs, November 2017.\\[1em]
+\iffalse
   & \textit{Multi-modal structure learning in high dimensions for integrative genomics.}\\
   & Machine Learning Lunch Seminar. Carnegie Mellon University, October 2015.\\[1.5em]
 \fi
  \textsc{Teaching}
-  & \textit{Probabilistic Graphical Models} (Teaching Assistant)
-    \hfill Spring 2016\\
-  & \textit{Introduction to Machine Learning} (Teaching Assistant)
-    \hfill Fall 2015\\[1.5em]
+  %& \textit{Correlation, Causation, Confounding, and Conditioning} (Guest Lecturer, UPenn)
+  %  \hfill Spring 2022\\
+  & \textit{Probabilistic Graphical Models} (Teaching Assistant, CMU)
+    \hfill \textbf{Spring 2016}\\
+  & \textit{Introduction to Machine Learning} (Teaching Assistant, CMU)
+    \hfill \textbf{Fall 2015}\\[1.5em]
  \textsc{Activities and Professional Service}
+  & \textit{Elicitation of latent knowledge (ELK) award contest}
+  \hfill\textbf{February 2022}\\[-2.5em]
+  & AI Alignment Research Center (\href{https://calvinmccarter.wordpress.com/2022/02/19/mind-blindness-strategy-for-eliciting-latent-knowledge/}{research proposal}
+      received \href{https://www.alignmentforum.org/posts/zjMKpSB2Xccn9qi5t/elk-prize-results}{honorable mention}).\\[0.5em]
   & \textit{Paper reviewing}
-  \hfill\textbf{June 2016 - Present}\\[-2.5em]
+  \hfill\textbf{June 2016 - Present}\\
   & Reviewer for \textit{NeurIPS}, \textit{IEEE Internet of Things}, \textit{Statistics and Computing}, and \textit{SciPy}.\\[0.5em]
   & \textit{University of Pittsburgh Biomedical Informatics Training Program}
     \hfill\textbf{2017}\\
   & Mentor to undergraduate research intern through iBRIC program.\\[0.5em]
   & \textit{Middle school science fair judging}
     \hfill\textbf{2015-2020}\\
-  & Science fair judge for Pennsylvania Junior Academy of Science and Chicago Public Schools.\\[0.5em]
+  & Science fair judge for PA Junior Academy of Science and Chicago Public Schools.\\[0.5em]
   %& \textit{Machine Learning Department Admissions Committee}
   %  \hfill\textbf{2015}\\
   %& Reviewed application materials of prospective graduate students.\\[0.5em]
