@@ -7,7 +7,7 @@ For more information, see http://andreasviklund.com/dt_portfolio/leaves/
 
 /* General styles */
 body {background-color:#000; color:#ccc; font:80% "Lato",Helvetica,sans-serif; line-height:1.5em;}
-a {color:#244050; text-decoration:none; font-weight:400;}
+a {color:#326887; text-decoration:none; font-weight:400;}
 a:hover {text-decoration:underline;}
 p,ul,ol,dl {margin:0 0 15px 0; line-height:1.6em; font-size:1.25em;}
 h1 {color:#404040; font-size:4.6em; margin-bottom:0;}
@@ -15,7 +15,7 @@ h1 a {text-transform:none; font-weight:400;}
 h1 a:hover {text-decoration:none; color:#eee;}
 h2 {font-size:2.8em; color:#333; margin:0 0 10px;}
 h3 {font-size:1.8em; margin:0 0 10px 0;}
-h1,h2,h3,.navmenu a {font-family: 'Alegreya SC', sans-serif; color:#244050; font-weight:400; line-height:1.4em;}
+h1,h2,h3,.navmenu a {font-family: 'Alegreya SC', sans-serif; color:#326887; font-weight:400; line-height:1.4em;}
 
 /* Main layout container */
 #layout {margin:40px auto 0; width:960px;}
@@ -83,13 +83,13 @@ ul.menu li a:hover {color:#eee; text-decoration:none;}
 body .navmenu {line-height:2.6em;}
 
 /* Light styles, apply by using class="light" on the body HTML element */
-body.light {background:#fff; border-top:4px solid #244050; border-bottom:0 solid #244050; color:#404040;}
-body.light a {color:#244050;}
+body.light {background:#fff; border-top:4px solid #326887; border-bottom:0 solid #326887; color:#404040;}
+body.light a {color:#326887;}
 body.light a:hover {color:#555;}
 body.light h1 {color:#404040; font-size:4.6em; margin-bottom:0;}
 body.light h1 a:hover {color:#303030;}
 body.light h2 {color:#555;}
-body.light h1, body.light h2, body.light h3 {color:#244050;}
+body.light h1, body.light h2, body.light h3 {color:#326887;}
 body.light ul.menu {border-top:1px solid #ddd;}
 body.light ul.menu li {border-bottom:1px solid #ddd;}
 body.light ul.menu li a:hover {color:#333;}
