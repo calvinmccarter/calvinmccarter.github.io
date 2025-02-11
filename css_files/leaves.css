@@ -18,7 +18,17 @@ h3 {font-size:1.8em; margin:0 0 10px 0;}
 h1,h2,h3,.navmenu a {font-family: 'Alegreya SC', sans-serif; color:#326887; font-weight:400; line-height:1.4em;}
 
 /* Main layout container */
-#layout {margin:40px auto 0; width:960px;}
+/* #layout {margin:40px auto 0; width:960px;} */
+/* I <3 Claude */
+/* Replace the fixed-width layout with a responsive one */
+#layout {
+    margin: 40px auto 0;
+    width: 90%;        /* Use 90% of viewport width */
+    max-width: 1800px; /* Optional: prevent getting too wide */
+    min-width: 320px;  /* Optional: prevent getting too narrow */
+}
+
+
 body.wider #layout {margin:40px auto 0; width:1200px;}
 
 /* Footer */
@@ -31,20 +41,35 @@ body.wider #layout {margin:40px auto 0; width:1200px;}
 /* Grid classes, fixed width, 960px with 12 columns */
 .col {float:left; margin:0 10px; overflow:hidden; float:left; display:inline;}
 .col img {max-width:100%;}
-.row {width:960px; margin:20px auto 0; overflow:hidden;}
+/* .row {width:960px; margin:20px auto 0; overflow:hidden;} */
 .row .row {margin:0 -10px; width:auto;	display:inline-block;}
 .c1 {width:60px;}
 .c2 {width:140px;}
 .c3 {width:220px;}
 .c4 {width:300px;}
-.c5 {width:380px;}
+/* .c5 {width:380px;} */
 .c6 {width:460px;}
-.c7 {width:540px;}
+/* .c7 {width:540px;} */
 .c8 {width:620px;}
 .c9 {width:700px;}
 .c10 {width:780px;}
 .c11 {width:860px;}
 .c12 {width:940px;}
+
+/* I <3 Claude */
+/* Make the row match the layout width */
+.row {
+    width: 100%;
+    margin: 20px auto 0;
+    overflow: hidden;
+}
+/* Make columns percentage-based instead of fixed-width */
+.c5 {
+    width: 30%;
+}
+.c7 {
+    width: 65%;
+}
 
 /* Grid classes, fixed width, 1200px with 12 columns - add class="wider" to the <body> element to use this */
 body.wider .row {width:1200px;}
